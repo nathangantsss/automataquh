@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+}
+
+.container {
+    max-width: 600px;
+    margin: 85px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container2 {   
+    max-width: 950px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
+    position: absolute;
+    top: 350px;
+    left: 165px;
+    text-align: center;   
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(20, 19, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+p2 {
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headers */
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    position: inherit;
+    
+}
+
+.logo {
+    float: left;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: grid;
+    margin-right: 20px;
+    place-content: center;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    z-index: 1000; 
+}
+
+.fixed-header .logo {
+    float: left;
+}
+
+.fixed-header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fixed-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.fixed-header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fixed-header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Menambahkan padding top ke main agar konten tidak terpotong */
+main {
+    padding-top: 0px; /* Sesuaikan dengan tinggi header */
+}   
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 30px;
+    margin: 0;
+    font-weight: bolder;
+    background-image: url(wallhaven-nel5y8_1366x768.png);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+aside {
+
+        background-color: #000000;
+        color: #fff;
+        padding: 45px;
+        position: fixed;
+        left: 0;
+        top: 90px;
+        height: 75%;
+        max-width: 59px;
+}
